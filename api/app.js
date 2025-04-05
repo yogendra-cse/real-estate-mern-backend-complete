@@ -29,7 +29,7 @@ createdAt DateTime @default(now())
 
 
 
-mongoose.connect("mongodb://localhost:27017/Real-Estate").then(
+mongoose.connect("mongodb+srv://yogendra:Yoge2005@mycluster.u5ayq.mongodb.net/Real-Estate-Database").then(
     () => {
         console.log("Connected to database you are good to go hello");
 
